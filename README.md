@@ -29,3 +29,5 @@ In the output, find your test message and the corresponding chat ID. For example
   ]
 }
 ```
+3. Open the Amazon SNS Console at https://console.aws.amazon.com/sns/home and create a new SNS topic in the AWS region of your choice.<br/>
+  Open the Lambda Management Console at https://console.aws.amazon.com/lambda/home and switch to the same AWS region where you created your SNS topic. Then, create a new Lambda function
