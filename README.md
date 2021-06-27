@@ -33,8 +33,8 @@ In the output, find your test message and the corresponding chat ID. For example
   Open the Lambda Management Console at https://console.aws.amazon.com/lambda/home and switch to the same AWS region where you created your SNS topic. Then, create a new Lambda function and paste the code that youfind in this repository (https://github.com/zatarra97/AWS-Lambda-Telegram-Message/blob/main/send_message.py)<br/>
   
 4. Set Envirornent Variables: <br/>
-  Go to the "configuration" tab and click on "Envirornent Variables", create this two variables:
-  Key | Value
------------- | -------------
+  Go to the "configuration" tab and click on "Envirornent Variables", create this two variables:<br/>
+Key | Value
+--- | -----
 CHAT_ID | Your chat_id 
 TOKEN | You Telegram Bot Token
