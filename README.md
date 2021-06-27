@@ -9,7 +9,7 @@ In your Telegram app, search the bot that you just created and send the /start c
 Execute a Bot API call to get the ID of your chat with your bot. (In the following command, replace <token> with the authorization TOKEN that you received from the BotFather.)<br/>
 `curl 'https://api.telegram.org/bot<token>/getUpdates' | python -m json.tool`<br/>
 In the output, find your test message and the corresponding chat ID. For example, in the following output, the chat ID is 987654321.<br/><br/>
-`
+```json
 {
   "ok": true,
   "result": [
@@ -28,4 +28,4 @@ In the output, find your test message and the corresponding chat ID. For example
     }
   ]
 }
-  `
+```
