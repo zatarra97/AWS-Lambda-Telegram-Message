@@ -39,10 +39,9 @@ Key | Value
 CHAT_ID | Your chat_id 
 TOKEN | You Telegram Bot Token
   
+<br/> 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
   
-  
-  <br/>
-  First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
