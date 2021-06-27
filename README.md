@@ -6,9 +6,9 @@ BotFather generates an authorization TOKEN for your new bot. This TOKEN is a str
 
 2. **Get The Chat ID:**<br/>
 In your Telegram app, search the bot that you just created and send the /start command. Then, write any test message to the chat with your bot.
-Execute a Bot API call to get the ID of your chat with your bot. (In the following command, replace <token> with the authorization TOKEN that you received from the BotFather.)<br/>NOTE: For Windows user you should use " instead of ' or there may be problems.
-`curl 'https://api.telegram.org/bot<token>/getUpdates' | python -m json.tool`<br/>
-In the output, find your test message and the corresponding chat ID. For example, in the following output, the chat ID is 987654321.<br/><br/>
+Execute a Bot API call to get the ID of your chat with your bot. (In the following command, replace <token> with the authorization TOKEN that you received from the BotFather.)<br/>NOTE: For Windows user you should use " instead of ' or there may be problems.<br/><br/>
+`curl 'https://api.telegram.org/bot<token>/getUpdates' | python -m json.tool`<br/><br/>
+In the output, find your test message and the corresponding chat ID. For example, in the following output, the chat ID is 987654321.<br/>
 ```json
 {
   "ok": true,
