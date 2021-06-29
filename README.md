@@ -34,15 +34,9 @@ In the output, find your test message and the corresponding chat ID. For example
   
 4. Set Envirornent Variables: <br/>
   Go to the "configuration" tab and click on "Envirornent Variables", create this two variables:<br/>
-Key | Value
---- | -----
-CHAT_ID | Your chat_id 
-TOKEN | You Telegram Bot Token
   
-<br/> 
-  
-| Command | Description |
+| Key | Value |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| CHAT_ID | 987654321 |
+| TOKEN | 123456789:ABCD1234efgh5678-IJKLM |
   
