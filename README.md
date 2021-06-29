@@ -40,6 +40,7 @@ CHAT_ID | Your chat_id
 TOKEN | You Telegram Bot Token
   
 <br/> 
+  
 | Command | Description |
 | --- | --- |
 | git status | List all new or modified files |
